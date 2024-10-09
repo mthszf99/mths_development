@@ -7,8 +7,8 @@ export const Container = styled.div`
   top: 0px;
   left: 0px;
   width: 300px;
-  left: ${props => props.sidebar ? '0' : '-100%'};
-  animation: showSidebar .4s;
+  left: ${props => props.menu ? '0' : '-100%'};
+  animation: showMenu .4s;
 
   > svg {
     position: fixed;

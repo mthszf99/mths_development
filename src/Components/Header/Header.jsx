@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Container>
       <FaBars onClick={showMenu} />
-      {menu && <Sidebar active={setMenu} />}
+      {menu && <Menu active={setMenu} />}
     </Container>
   )
 }
