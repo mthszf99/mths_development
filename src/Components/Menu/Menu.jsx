@@ -16,12 +16,12 @@ const Menu = ({ active }) => {
   }
 
   return (
-    <Container data-active={active ? 'true' : 'false'}>
+    <Container menu={active}>
       <FaTimes onClick={closeMenu} />  
       <Content>
-        <MenuItens Icon={FaHome} Text="Home" />
-        <MenuItens Icon={FaChartBar} Text="Sobre" />
-        <MenuItens Icon={FaUserAlt} Text="Contatos" />
+        <MenuItens Text="Home" />
+        <MenuItens Text="Sobre" />
+        <MenuItens Text="Contatos" />
       </Content>
     </Container>
   )
