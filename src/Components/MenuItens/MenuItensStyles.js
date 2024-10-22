@@ -4,7 +4,7 @@ import ('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..90
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background-color: black; 
+  background-color: transparent; 
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 40px;
@@ -19,6 +19,6 @@ export const Container = styled.div`
   }
 
   &:hover {
-    background-color: #1A202C;
+    color: #FFBC0E;
   }
 `;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Content } from './StylesMenu'
+import { Link } from 'react-router-dom'
 import { 
   FaTimes, 
   FaHome, 
@@ -19,9 +20,9 @@ const Menu = ({ active }) => {
     <Container menu={active}>
       <FaTimes onClick={closeMenu} />  
       <Content>
-        <MenuItens Text="Home" />
-        <MenuItens Text="Sobre" />
-        <MenuItens Text="Contatos" />
+        <Link to="/" style={{ textDecoration: 'none' }}><MenuItens Text="Home" /></Link>
+        <Link to="/Sobre" style={{ textDecoration: 'none' }}><MenuItens Text="Sobre" /></Link>
+        <Link to="/Contatos" style={{ textDecoration: 'none' }}><MenuItens Text="Contatos" /></Link>
       </Content>
     </Container>
   )

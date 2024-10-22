@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: black;
+  background-color: rgba(0,0,0,0.9);
   position: fixed;
   height: 100%;
   top: 0px;
@@ -9,6 +9,10 @@ export const Container = styled.div`
   width: 300px;
   left: ${props => props.menu ? '0' : '-100%'};
   animation: showMenu .4s;
+
+  Link {
+  text-decoration: none;
+  }
 
   > svg {
     position: fixed;
