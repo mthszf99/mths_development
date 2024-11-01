@@ -50,3 +50,12 @@ body, html {
     margin-top: -30%;
     width: 48%;
 }
+
+.portifolio {
+    color: #FFBC0E;
+    font-size: 40px;
+    font-family: "DotGothic16", sans-serif;
+    margin-left: 15%;
+    opacity: 0.8;
+    margin-top: 10%;
+}
