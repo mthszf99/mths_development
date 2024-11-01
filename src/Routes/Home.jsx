@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomeStyles.css';
+import './PagStyles.css';
 import fonts from 'google-fonts';
 import IMG01 from '../images/IMG01.png'
 
@@ -14,9 +14,9 @@ fonts.add({
 function Home() {
   return (
     <div>
-      <h2>Transformando Ideias <br/> Em Experiências <br/> Digitais Inovadoras</h2>
-      <p>Combinando design intuitivo e tecnologia de ponta,<br/> criamos soluções digitais que entregam resultados.<br/> Cada projeto é uma oportunidade de transformar a<br/> visão do cliente em uma experiência única, funcional e<br/> impactante, elevando sua presença digital ao próximo<br/> nível.</p>
-      <img src={IMG01 }/>
+      <h2 className='home'>Transformando Ideias <br/> Em Experiências <br/> Digitais Inovadoras</h2>
+      <p className='desc01'>Combinando design intuitivo e tecnologia de ponta,<br/> criamos soluções digitais que entregam resultados.<br/> Cada projeto é uma oportunidade de transformar a<br/> visão do cliente em uma experiência única, funcional e<br/> impactante, elevando sua presença digital ao próximo<br/> nível.</p>
+      <img className='img01' src={IMG01 }/>
     </div>
   )
 }
