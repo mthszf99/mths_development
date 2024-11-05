@@ -9,7 +9,6 @@ const Menu = ({ active, closeMenu }) => {
   const location = useLocation();
 
   useEffect(() => {
-    // Fecha o menu ao mudar a rota
     closeMenu();
   }, [location]);
 
