@@ -7,7 +7,6 @@ import { LuInstagram } from "react-icons/lu";
 function Contatos() {
   return (
     <div>
-     <div class="caixa_contatos">
       <h2 class="title_page">Contatos</h2>
       <p class="desc_page">Esses são nossos contatos. Fique a vontade para enviar sugestões, dúvidas ou orçamentos.</p>
         <ul class="social">
@@ -32,7 +31,6 @@ function Contatos() {
               </a>
             </li>
           </ul>
-    </div>
     </div>
   )
 }
