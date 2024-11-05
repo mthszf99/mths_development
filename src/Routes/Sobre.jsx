@@ -1,7 +1,6 @@
 import React from 'react'
 import IMG02  from '../images/IMG02.png'
 import Slider from '../Components/Slider/Slider'
-import Cards from '../Components/Cards/Cards'
 
 function Sobre() {
   return (
@@ -12,7 +11,6 @@ function Sobre() {
       Se você busca inovação e soluções digitais que<br/> fazem a diferença, a MTHS Developer está<br/> pronta para ser o parceiro ideal em sua jornada<br/> digital.</p>
       <img className='img02' src={IMG02 }/>
       <h2 className='portifolio'>Portifólio</h2>
-      <Cards/>
       <Slider/>
     </div>
   )

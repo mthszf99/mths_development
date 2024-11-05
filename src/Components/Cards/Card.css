@@ -2,14 +2,14 @@
 .card-port{
     background-color: #232b3b;
     border-radius: 20px;
-    width: 300px;
-    box-shadow: 0px 10px 8px #28354e;
+    width: 60%;
+    box-shadow: 0px 5px 5px #28354e;
     display: flex;
     align-items: center ;
     flex-direction: column;
     margin: 20px;
     height: fit-content;
-    padding: 10px;
+    padding:10px;
 }
 
 .img-card {
@@ -35,9 +35,10 @@
 
 .card-page {
     background-color: #FFBC0E;
-    width: 40%;
+    width: 35%;
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
+    align-items: center;
 }
