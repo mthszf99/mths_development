@@ -1,38 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   height: 100%;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 300px;
-  left: ${props => props.menu ? '0' : '-100%'};
-  animation: showMenu .4s;
-
-  Link {
-  text-decoration: none;
-  }
+  transform: ${({ menu }) => (menu ? 'translateX(0)' : 'translateX(-100%)')};
+  transition: transform 0.4s ease;
+  z-index: 2;
 
   > svg {
-    position: fixed;
+    position: absolute;
     color: white;
     width: 30px;
     height: 30px;
-    margin-top: 32px;
-    margin-left: 32px;
+    top: 32px;
+    left: 32px;
     cursor: pointer;
-  }
-
-  @keyframes showMenu {
-    from {
-      opacity: 0;
-      width: 0;
-    }
-    to {
-      opacity: 1;
-      width: 300px;
-    }
   }
 `;
 

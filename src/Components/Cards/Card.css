@@ -35,10 +35,16 @@
 
 .card-page {
     background-color: #FFBC0E;
-    width: 35%;
+    width: 40%;
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 0 auto;
+
+
 }

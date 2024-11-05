@@ -9,3 +9,11 @@ body {
   height: 100vh;
   background-color: #1A202C;
 }
+
+.page-content {
+  transition: transform 0.4s ease;
+}
+
+.page-content.menu-active {
+  transform: translateX(300px);
+}

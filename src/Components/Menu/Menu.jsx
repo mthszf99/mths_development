@@ -1,31 +1,28 @@
-import React from 'react'
-import { Container, Content } from './StylesMenu'
-import { Link } from 'react-router-dom'
-import { 
-  FaTimes, 
-  FaHome, 
-  FaUserAlt, 
-  FaChartBar
-} from 'react-icons/fa'
+import React, { useEffect } from 'react';
+import { Container, Content } from './StylesMenu';
+import { Link, useLocation } from 'react-router-dom';
+import { FaTimes } from 'react-icons/fa';
 
-import MenuItens from '../MenuItens/MenuItens'
+import MenuItens from '../MenuItens/MenuItens';
 
-const Menu = ({ active }) => {
+const Menu = ({ active, closeMenu }) => {
+  const location = useLocation();
 
-  const closeMenu = () => {
-    active(false)
-  }
+  useEffect(() => {
+    // Fecha o menu ao mudar a rota
+    closeMenu();
+  }, [location]);
 
   return (
     <Container menu={active}>
-      <FaTimes onClick={closeMenu} />  
+      <FaTimes onClick={closeMenu} />
       <Content>
-        <Link to="/" style={{ textDecoration: 'none' }}><MenuItens Text="Home" /></Link>
-        <Link to="/Sobre" style={{ textDecoration: 'none' }}><MenuItens Text="Sobre" /></Link>
-        <Link to="/Contatos" style={{ textDecoration: 'none' }}><MenuItens Text="Contatos" /></Link>
+        <Link to="/" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Home" /></Link>
+        <Link to="/Sobre" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Sobre" /></Link>
+        <Link to="/Contatos" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Contatos" /></Link>
       </Content>
     </Container>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;

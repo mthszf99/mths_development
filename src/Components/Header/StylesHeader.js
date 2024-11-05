@@ -7,10 +7,10 @@ export const Container = styled.div`
   box-shadow: 0 0 20px 3px;
 
   img {
-  margin-left: 80px;
-  height: 180px;
-  width: 200px;
-  margin-top:-45px;
+    margin-left: 80px;
+    height: 180px;
+    width: 200px;
+    margin-top: -45px;
   }
 
   > svg {
@@ -22,4 +22,14 @@ export const Container = styled.div`
     margin-left: 40px;
     cursor: pointer;
   }
+`;
+
+export const Backdrop = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 `;
