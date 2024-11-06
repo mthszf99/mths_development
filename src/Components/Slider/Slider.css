@@ -9,3 +9,19 @@
     display: flex;
     justify-content: center;
 }
+
+.swiper-pagination-bullet-active {
+    background-color: #FFBC0E;
+}
+
+.swiper-button-prev {
+    color: #FFBC0E;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.swiper-button-next {
+    color: #FFBC0E;
+    padding: 10px;
+    margin-right: 10%;
+}
