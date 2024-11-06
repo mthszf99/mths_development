@@ -59,6 +59,13 @@ body, html {
     opacity: 0.8;
     margin-top: 10%;
 }
+.desc_portifolio {
+  color: white;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 15%;
+  margin-top: 2%;
+}
 /*Estilos contatos*/
 .title_page {
 	font-size: 40px;

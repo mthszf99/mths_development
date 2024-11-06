@@ -9,7 +9,7 @@ function Contatos() {
   return (
     <div>
       <h2 class="title_page">Contatos</h2>
-      <p class="desc_page">Esses são nossos contatos. Fique a vontade para enviar sugestões, dúvidas ou orçamentos.</p>
+      <p class="desc_page">Contate-nos para dúvidas, sugestões ou orçamentos!</p>
         <ul class="social">
         <li className="item">
               <a href="https://api.whatsapp.com/send?phone=5531992778054" target="_blank">
