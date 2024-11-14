@@ -50,7 +50,7 @@ export default function Slider () {
     return (
         <Swiper
         modules={[Navigation, Pagination]}
-        spaceBetween={10}
+        spaceBetween={25}
         slidesPerView={3}
         navigation
         pagination={{clickable: true}}
