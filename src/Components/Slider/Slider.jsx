@@ -50,10 +50,11 @@ export default function Slider () {
     return (
         <Swiper
         modules={[Navigation, Pagination]}
-        spaceBetween={25}
+        spaceBetween={0}
         slidesPerView={3}
         navigation
         pagination={{clickable: true}}
+        loop={true}
         >
           {cardsData.map((card, index) => (<SwiperSlide key={index}>
             <Cards

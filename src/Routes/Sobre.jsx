@@ -11,7 +11,7 @@ function Sobre() {
       Se você busca inovação e soluções digitais que<br/> fazem a diferença, a MTHS Developer está<br/> pronta para ser o parceiro ideal em sua jornada<br/> digital.</p>
       <img className='img02' src={IMG02 }/>
       <h2 className='portifolio'>Portifólio</h2>
-      <p className='desc_portifolio'>Estes são alguns de nossos projeto:</p>
+      <p className='desc_portifolio'>Estes são alguns de nossos projetos:</p>
       <Slider/>
     </div>
   )

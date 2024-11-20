@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const CardPort = styled.div`
   background-color: #232b3b;
   border-radius: 20px;
-  width: 60%;
+  width: 350px;
   box-shadow: 0px 5px 5px #28354e;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 20px;
+  margin: 0px;
   height: fit-content;
   padding: 10px;
 `;

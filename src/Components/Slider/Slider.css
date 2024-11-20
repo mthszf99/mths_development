@@ -1,13 +1,18 @@
 .swiper {
-    padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 30px;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .swiper-slide {
     display: flex;
     justify-content: center;
+    margin: 0;
+    width: auto;
+}
+
+.swiper-wrapper {
+    align-items: center;
 }
 
 .swiper-pagination-bullet-active {
@@ -17,11 +22,11 @@
 .swiper-button-prev {
     color: #FFBC0E;
     padding: 10px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .swiper-button-next {
     color: #FFBC0E;
     padding: 10px;
-    margin-right: 10%;
+    margin-right: 5%;
 }

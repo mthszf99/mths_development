@@ -168,6 +168,7 @@ body, html {
 
 
 /*Responsividade Monitor até 1300*/
+/*estilos home*/
 .home{
 @media(max-width: 1300px){
   margin-left: 12%;
@@ -187,7 +188,41 @@ body, html {
     }
 }
 
+/*estilos sobre*/
+
+.sobre{
+@media(max-width: 1300px){
+  margin-left: 12%;
+}
+}
+
+.desc02{
+@media(max-width: 1300px){
+  margin-left: 12%;
+}
+}
+.img02{
+  @media(max-width: 1300px){
+    margin-top: -40%;
+    margin-left: 45%;
+  }
+}
+
+/*estilos portifolio*/
+.portifolio{
+@media(max-width: 1300px){
+  margin-left: 12%;
+}
+}
+
+.desc_portifolio{
+@media(max-width: 1300px){
+  margin-left: 12%;
+}
+}
+
 /*Responsividade tela até 1010*/
+/*Estilos home*/
 .home{
     @media(max-width: 1010px){
       font-size: 35px;
@@ -196,6 +231,40 @@ body, html {
 
 .desc01{
 @media(max-width: 1010px){
+  font-size: 14px;
+}
+}
+
+/*estilos sobre*/
+.sobre{
+@media(max-width: 1010px){
+  margin-left: 12%;
+  font-size: 35px;
+}
+}
+
+.desc02{
+@media(max-width: 1010px){
+  font-size: 14px;
+}
+}
+
+.img02{
+  @media(max-width: 1010px){
+    margin-top: -50%;
+    margin-left: 50%;
+  }
+}
+/*estilos portifolio*/
+.portifolio{
+@media(max-width: 1010px){
+  margin-left: 12%;
+  font-size: 35px;
+}
+}
+.desc_portifolio{
+@media(max-width: 1010px){
+  margin-left: 12%;
   font-size: 14px;
 }
 }
