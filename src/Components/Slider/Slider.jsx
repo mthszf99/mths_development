@@ -55,6 +55,17 @@ export default function Slider () {
         navigation
         pagination={{clickable: true}}
         loop={true}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+          },
+          900: {
+            slidesPerView: 2,
+          },
+          1100: {
+            slidesPerView: 3,
+          },
+        }}
         >
           {cardsData.map((card, index) => (<SwiperSlide key={index}>
             <Cards
