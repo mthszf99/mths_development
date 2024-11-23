@@ -11,6 +11,13 @@ export const CardPort = styled.div`
   margin: 0px;
   height: fit-content;
   padding: 10px;
+
+  @media (max-width: 1040px) {
+    width: 280px;
+  }
+  @media (max-width: 390px) {
+    width: 200px;
+  }
 `;
 
 export const ImgCard = styled.img`
@@ -24,6 +31,13 @@ export const TitleCard = styled.h2`
   font-size: 30px;
   font-family: "DotGothic16", sans-serif;
   padding: 5px;
+
+  @media (max-width: 1040px) {
+    font-size: 25px;
+  }
+  @media (max-width: 390px) {
+    font-size: 18px;
+  }
 `;
 
 export const DescriptionCard = styled.p`
@@ -31,6 +45,13 @@ export const DescriptionCard = styled.p`
   font-family: "Montserrat", sans-serif;
   color: white;
   padding: 20px;
+
+    @media (max-width: 1040px) {
+    font-size: 12px;
+  }
+  @media (max-width: 390px) {
+    font-size: 8px;
+  }
 `;
 
 export const CardPage = styled.a`
