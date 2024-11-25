@@ -184,8 +184,15 @@ body, html {
   justify-content: center;
   margin: 0;
 }
+/*Responsividades de itens pontuais*/
+/*Estlos da imagem da tela sobre até 1480px*/
+.img02 {
+@media(max-width: 1480px){
+  margin-top: -35%;
+}
+}
 
-/*Responsividade/
+/*Responsividade até 1320px*/
 /*estilos home até 1300px*/
 .home{
 @media(max-width: 1300px){
@@ -206,8 +213,7 @@ body, html {
     }
 }
 
-/*estilos sobre*/
-
+/*estilos sobre até 1300px*/
 .sobre{
 @media(max-width: 1300px){
   margin-left: 12%;
@@ -225,8 +231,6 @@ body, html {
     margin-left: 45%;
   }
 }
-
-/*estilos portifolio*/
 .portifolio{
 @media(max-width: 1300px){
   margin-left: 12%;
@@ -239,7 +243,7 @@ body, html {
 }
 }
 
-/*Estilos contatos*/
+/*Estilos contatos até 1320px*/
 .title_page{
 @media(max-width: 1320px){
   margin-left: 12%;
@@ -257,9 +261,25 @@ body, html {
   }
 }
 
+/*Estilos contatos até 1100px*/
+.img03{
+  @media(max-width: 1100px){
+    margin-left: 50%;
+    margin-top: -30%;
+  }
+}
+/*Responsividades de itens pontuais*/
+/*Estilos da imagem da tela contatos de 851px a 1024px*/
+.img03{
+  @media(max-width: 1024px){
+    margin-left: 55%;
+    margin-top: -35%;
+    width: 330px;
+  }
+}
 
 /*Responsividade tela até 1010*/
-/*Estilos home*/
+/*Estilos home até 1010px*/
 .home{
     @media(max-width: 1010px){
       font-size: 35px;
@@ -272,7 +292,7 @@ body, html {
 }
 }
 
-/*estilos sobre*/
+/*estilos sobre até 1010px*/
 .sobre{
 @media(max-width: 1010px){
   margin-left: 12%;
@@ -292,7 +312,6 @@ body, html {
     margin-left: 50%;
   }
 }
-/*estilos portifolio*/
 .portifolio{
 @media(max-width: 1010px){
   margin-left: 12%;
@@ -306,15 +325,8 @@ body, html {
 }
 }
 
-/*Estilos contatos*/
-.img03{
-  @media(max-width: 1100px){
-    margin-left: 50%;
-    margin-top: -30%;
-  }
-}
-
-/*Responsividade tablet até 900*/
+/*Responsividade até 900px*/
+/*Estilos home até 900px*/
 .home{
     @media(max-width: 900px){
       margin-left: 30%;
@@ -336,63 +348,17 @@ body, html {
   }
 }
 
-/*Estilos contatos*/
-.title_page{
-  @media(max-width: 1028px){
-    font-size: 30px;
-    margin-left: 12%;
-  }
-  }
-  .desc_page{
-  @media(max-width: 1028px){
-    font-size: 15px;
-    margin-left: 12%;
-  }
-  }
-  .img03{
-    @media(max-width: 1028px){
-      margin-left: 53%;
-      margin-top: -35%;
-      width: 400px;
-    }
-  }
-
-/*Responsividade mobile até 700*/
-
-.home{
-  @media(max-width: 700px){
-    margin-left: 15%;
-    font-size: 28px;
-  }
-}
-
-.desc01{
-  @media(max-width: 700px){
-    margin-left: 12%;
-    padding: 10px;
-    font-size: 13px;
-  }
-}
-
-.img01{
-@media(max-width: 700px){
-  width: 65%;
-  margin-top: 5%;
-  margin-left: 15%;
-}
-}
-
-/*estilos sobre*/
+/*estilos sobre até 850*/
 .sobre{
   @media(max-width: 850px){
-    margin-left: 25%;
+    margin-left: 15%;
     font-size: 35px;
   }
 }
 
 .desc02{
   @media(max-width: 850px){
-    margin-left: 25%;
+    margin-left: 15%;
     padding: 10px;
     font-size: 15px;
   }
@@ -401,66 +367,26 @@ body, html {
 .img02{
   @media(max-width: 850px){
     margin-top: 0%;
-    width: 300px;
-    margin-left: 150px;
+    width: 500px;
+    margin-left: 80px;
   }
 }
 
 .portifolio{
   @media(max-width: 850px){
-    margin-left: 25%;
+    margin-left: 15%;
     font-size: 35px;
   }
 }
 
 .desc_portifolio{
   @media(max-width: 850px){
-    margin-left: 25%;
+    margin-left: 13%;
     padding: 10px;
     font-size: 15px;
   }
 }
-
-/*estilos sobre mobile*/
-.sobre{
-  @media(max-width: 600px){
-    margin-left: 15%;
-    font-size: 30px;
-  }
-}
-
-.desc02{
-  @media(max-width: 600px){
-    margin-left: 12%;
-    padding: 10px;
-    font-size: 12px;
-  }
-}
-
-.img02{
-  @media(max-width: 600px){
-    margin-top: 0%;
-    margin-left: 15%;
-  }
-}
-
-.portifolio{
-  @media(max-width: 850px){
-    margin-left: 15%;
-    font-size: 30px;
-  }
-}
-
-.desc_portifolio{
-  @media(max-width: 850px){
-    margin-left: 12%;
-    padding: 10px;
-    font-size: 12px;
-  }
-}
-
 /*estilos contatos até 850px*/
-
 .title_page{
   @media(max-width: 850px){
     font-size: 30px;
@@ -486,8 +412,69 @@ body, html {
     margin-left: 120px;
   }
   }
+/*Estilos home até 700px*/
+.home{
+  @media(max-width: 700px){
+    margin-left: 15%;
+    font-size: 28px;
+  }
+}
 
-/*Estilos contatos mobile*/
+.desc01{
+  @media(max-width: 700px){
+    margin-left: 12%;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+.img01{
+@media(max-width: 700px){
+  width: 65%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+}
+
+/*Responsividade até 600px*/
+/*estilos sobre até 600px*/
+.sobre{
+  @media(max-width: 600px){
+    margin-left: 15%;
+    font-size: 30px;
+  }
+}
+
+.desc02{
+  @media(max-width: 600px){
+    margin-left: 12%;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+.img02{
+  @media(max-width: 600px){
+    margin-top: 0%;
+    margin-left: 15%;
+  }
+}
+
+.portifolio{
+  @media(max-width: 600px){
+    margin-left: 15%;
+    font-size: 30px;
+  }
+}
+
+.desc_portifolio{
+  @media(max-width: 600px){
+    margin-left: 12%;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+/*Estilos contatos até 600px*/
 .title_page{
   @media(max-width: 600px){
     font-size: 30px;
