@@ -16,7 +16,7 @@ fonts.add({
         <ImgCard src={image} alt={title} />
         <TitleCard>{title}</TitleCard>
         <DescriptionCard>{description}</DescriptionCard>
-        <CardPage href={link}>Learn More</CardPage>
+        <CardPage href={link} target="_blank" rel="noopener noreferrer">Learn More</CardPage>
       </CardPort>
     );
   }

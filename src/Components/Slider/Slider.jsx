@@ -35,16 +35,22 @@ export default function Slider () {
       link: 'https://github.com/mthszf99/pmv-ads-2023-1-e3-proj-mov-t6-grupo-5-my-finace'
     },
     {
-      title: 'Title 5',
-      description: 'Description for card 5',
+      title: 'Projeto MTHS Development',
+      description: 'Projeto criado para praticar e aprimorar meus conhecimentos em React, com o objetivo de criar um site para divulgar meus projetos e meus conhecimentos. Está em constante evolução para que possa ser uma ferramenta completa e eficiente com diversas funcionalidades.',
       image: GithubBackground,
-      link: 'https://github.com/mthszf99/pmv-ads-2024-1-e5-proj-empext-t1-d-alessandra'
+      link: 'https://github.com/mthszf99/mths_development'
     },
     {
-      title: 'Title 6',
-      description: 'Description for card 6',
+      title: 'Projeto InsFit',
+      description: 'O insfit é um projeto de faculdade que tem por objetivo auxiliar a adquirir hábitos mais saudáveis com a prática de exercícios fisicos de casa sem a necessidade de acessórios e equipamentos, desde que realizados de forma correta.',
       image: GithubBackground,
-      link: 'https://github.com/mthszf99/pmv-ads-2024-1-e5-proj-empext-t1-d-alessandra'
+      link: 'https://github.com/mthszf99/pmv-ads-2022-2-e2-proj-int-t4-insfit'
+    },
+    {
+      title: 'Projeto RHPro',
+      description: 'O RHPro é um projeto em fase de desenvolvimento na linguagem Java que tem por objetivo auxiliar a gestão de pessoas em uma empresa, desde o processo de recrutamento até o processo de demissão, com o objetivo de facilitar e agilizar processos burocráticos e de gestão de pessoas.',
+      image: GithubBackground,
+      link: 'https://github.com/mthszf99/RHPro'
     },
   ]
     return (

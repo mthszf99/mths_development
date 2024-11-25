@@ -3,8 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
   height: 100px;
   display: flex;
-  background-color: #000; 
+  background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 20px 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 
   img {
     margin-left: 80px;
