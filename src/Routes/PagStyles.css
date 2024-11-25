@@ -436,6 +436,13 @@ body, html {
 }
 }
 
+/*estilos newsletter até 700px*/
+.news{
+  @media(max-width: 650px){
+    font-size: 70px;
+  }
+}
+
 /*Responsividade até 600px*/
 /*estilos sobre até 600px*/
 .sobre{
@@ -499,3 +506,10 @@ body, html {
     margin-left: 70px;
   }
   }
+
+  /*estilos newsletter até 440px*/
+.news{
+  @media(max-width: 440px){
+    font-size: 40px;
+  }
+}

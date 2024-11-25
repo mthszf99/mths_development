@@ -11,7 +11,21 @@ export const Container = styled.div`
     height: 180px;
     width: 200px;
     margin-top: -45px;
+
+    @media (max-width: 700px) {
+    margin-left: 150px;
+    }
+    @media (max-width: 580px) {
+    margin-left: 100px;
+    }
+    @media (max-width: 470px) {
+    margin-left: 60px;
+    }
+    @media (max-width: 380px) {
+    margin-left: 30px;
+    }
   }
+
 
   > svg {
     position: relative;
