@@ -19,6 +19,7 @@ const Menu = ({ active, closeMenu }) => {
         <Link to="/" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Home" /></Link>
         <Link to="/Sobre" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Sobre" /></Link>
         <Link to="/Contatos" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Contatos" /></Link>
+        <Link to="/Newsletter" onClick={closeMenu} style={{ textDecoration: 'none' }}><MenuItens Text="Newsletter" /></Link>
       </Content>
     </Container>
   );

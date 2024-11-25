@@ -67,6 +67,7 @@ body, html {
   margin-left: 15%;
   margin-top: 2%;
 }
+
 /*Estilos contatos*/
 .title_page {
 	font-size: 40px;
@@ -166,9 +167,26 @@ body, html {
   margin-top: -20%;
 }
 
+/*Estilos Newsletter*/
 
-/*Responsividade Monitor até 1300*/
-/*estilos home*/
+.contentNews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.news {
+  font-size: 100px;
+  color: #FFBC0E;
+  font-family:"Montserrat", sans-serif;
+  justify-content: center;
+  margin: 0;
+}
+
+/*Responsividade/
+/*estilos home até 1300px*/
 .home{
 @media(max-width: 1300px){
   margin-left: 12%;
@@ -383,7 +401,8 @@ body, html {
 .img02{
   @media(max-width: 850px){
     margin-top: 0%;
-    margin-left: 25%;
+    width: 300px;
+    margin-left: 150px;
   }
 }
 
@@ -419,7 +438,7 @@ body, html {
 }
 
 .img02{
-  @media(max-width: 850px){
+  @media(max-width: 600px){
     margin-top: 0%;
     margin-left: 15%;
   }
@@ -440,22 +459,56 @@ body, html {
   }
 }
 
-/*Estilos contatos*/
+/*estilos contatos até 850px*/
+
 .title_page{
   @media(max-width: 850px){
     font-size: 30px;
-    margin-left: 12%;
+    margin-left: 20%;
   }
   }
   .desc_page{
   @media(max-width: 850px){
     font-size: 15px;
-    margin-left: 12%;
+    margin-left: 20%;
   }
   }
   .img03{
     @media(max-width: 850px){
-      margin-left: 0%;
+      margin-left: 10%;
       margin-top: 5%;
+      width: 450px;
     }
+  }
+
+  .social {
+    @media(max-width:850px){
+    margin-left: 120px;
+  }
+  }
+
+/*Estilos contatos mobile*/
+.title_page{
+  @media(max-width: 600px){
+    font-size: 30px;
+    margin-left: 15%;
+  }
+  }
+  .desc_page{
+  @media(max-width: 600px){
+    font-size: 15px;
+    margin-left: 15%;
+  }
+  }
+  .img03{
+    @media(max-width: 600px){
+      margin-left: 12%;
+      margin-top: 5%;
+      width: 300px;
+    }
+  }
+  .social {
+    @media(max-width:600px){
+    margin-left: 70px;
+  }
   }
