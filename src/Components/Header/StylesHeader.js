@@ -9,6 +9,10 @@ export const Container = styled.div`
   top: 0;
   width: 100%;
   z-index: 999;
+  
+  @media(max-width: 500px) {
+    height: 70px;
+  }
 
   img {
     margin-left: 80px;
@@ -21,6 +25,10 @@ export const Container = styled.div`
     }
     @media (max-width: 580px) {
     margin-left: 100px;
+    }
+    @media (max-width: 500px) {
+    width: 180px;
+    height: 150px;
     }
     @media (max-width: 470px) {
     margin-left: 60px;
@@ -39,6 +47,10 @@ export const Container = styled.div`
     margin-top: 32px;
     margin-left: 40px;
     cursor: pointer;
+
+    @media (max-width: 500px) {
+      margin-top: 20px;
+    }
   }
 `;
 
